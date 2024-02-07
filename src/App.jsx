@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { Link } from 'react-router-dom';
 import reactLogo from './assets/react.svg'
 import ZeldaLogo from './assets/images/sheikah.png'
+
 import './App.css'
 
 function App() {
@@ -15,9 +16,11 @@ function App() {
       </div>
       <h1>Breath of the Wild</h1>
       <div className="card">
-        <button >
-          Start!
-        </button>
+        <Link to="/map">
+          <button>
+            Start!
+          </button>
+        </Link>
       </div>
     </>
   )

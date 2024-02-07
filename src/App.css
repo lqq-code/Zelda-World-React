@@ -22,7 +22,7 @@
 }
 
 .logo:hover {
-  transform: rotate(360deg);
+  transform: rotate(720deg);
   filter: drop-shadow(1px 1px 5px rgba(255, 255, 255, .2));
 }
 
