@@ -22,7 +22,7 @@ function Map() {
       maxBoundsViscosity: 1.0,
     }).setView([0, 0], 2);
 
-    L.tileLayer('src/assets/images/maps/{z}_{x}_{y}.png', {
+    L.tileLayer('/assets/images/maps/{z}_{x}_{y}.png', {
       attribution: '&copy; David',
       minZoom: 2,
       maxZoom: 7,
